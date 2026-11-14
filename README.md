@@ -29,4 +29,8 @@ Art: `assets/art/` holds the cartographer-navy identity (dark map table, aged co
 
 ## Licence
 
-Free to print and share; not for resale. Course content © Michael Borck.
+Deck content: **CC BY-NC-SA 4.0** — free to print, share and adapt for
+non-commercial use with attribution; commercial use by permission.
+Print layouts and code: **MIT**. See `LICENSE`.
+
+© Michael Borck — borck.consulting.
