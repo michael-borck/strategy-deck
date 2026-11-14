@@ -22,9 +22,10 @@ line.
 | `strategy-deck-34-print.html` | Print & cut. 5 A4 pages, 8 cards per sheet, cover card first. |
 | `strategy-deck-guide.html` | One-page diagnostic. |
 | `strategy-deck-desk-card.html` | Every card, every line — one A4 pin-up. |
+| `moves-deck-36-art.html` | Art edition for the boxed print run: portrait cards, tinted category vignettes. |
 | `fonts/` | Domine, Funnel Sans, Nanum Gothic Coding (SIL OFL). |
 
-Art identity pass (map-and-terrain world) is the remaining pass.
+Art: `assets/art/` holds the cartographer-navy identity (dark map table, aged contour maps, brass instruments), generated with limn — prompts and sidecars in `assets/art/README.md`. Art edition included.
 
 ## Licence
 

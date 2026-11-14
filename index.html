@@ -17,6 +17,9 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15}
 .kicker.dark{color:#8A6A1F}.kicker.dark::before{background:#8A6A1F}
 .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
 .hero{position:relative;background:var(--bg);color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background:url('assets/art/banner.png') center/cover;opacity:.42}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(16,20,18,.96) 0%,rgba(16,20,18,.7) 48%,rgba(16,20,18,.25) 100%)}
+.hero .wrap{position:relative;z-index:1}
 .hero .wrap{position:relative;padding:110px 24px 120px;max-width:1060px}
 .hero h1{font-size:clamp(30px,4.6vw,46px);margin:14px 0 0}
 .hero h1 em{font-style:normal;color:var(--gold)}
@@ -42,6 +45,12 @@ section.alt{background:var(--paper)}
 .step .n{font-family:var(--serif);font-size:30px;color:var(--gold);font-weight:700}
 .step h3{font-size:16px;margin:6px 0 6px}
 .step p{font-size:13.5px;color:#4B5157}
+.split{display:grid;grid-template-columns:minmax(240px,380px) 1fr;gap:48px;align-items:center;margin-top:44px}
+.split img{width:100%;border-radius:10px;display:block;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.split h3{font-size:19px;margin:0 0 10px}
+.split p{font-size:14.5px;color:#3B3F46;margin:0 0 12px}
+.split .facts{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;color:var(--faint);line-height:2;text-transform:uppercase}
+@media(max-width:800px){.split{grid-template-columns:1fr}}
 .dl{margin-top:40px;border:1px solid #D8D4CA;border-radius:10px;overflow:hidden}
 .dl a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:16px 22px;text-decoration:none;color:var(--ink);border-bottom:1px solid #E4E1D8}
 .dl a:last-child{border-bottom:0}
@@ -73,6 +82,21 @@ footer .tag{color:var(--gold)}
 <h2 class="lead">Deal it. <em>Work it. Commit to three.</em></h2>
 <div class="pair"><div class="step"><div class="n">1</div><h3>Place the portfolio</h3><p>Deal the capability cards and place every initiative on the matrix. The empty quadrants are the strategy conversation.</p></div><div class="step"><div class="n">2</div><h3>Price it honestly</h3><p>Four value categories, horizon-matched thresholds, five-year cost, and the accuracy bar set by consequence.</p></div><div class="step"><div class="n">3</div><h3>Decide on the record</h3><p>Criteria before pitches. Red flags that veto. Every gate — scale, pivot, kill — made on purpose.</p></div></div>
 </div></section>
+<section>
+  <div class="wrap">
+    <div class="kicker dark">The printed deck</div>
+    <h2 class="lead">Also a boxed deck <em>for the table.</em></h2>
+    <div class="split">
+      <img src="assets/art/cover.png" alt="The Strategy Deck box art: an aged contour map with brass dividers under lamplight">
+      <div>
+        <h3>Built for the investment table</h3>
+        <p>Built for the investment table</p>
+        <div class="facts">The deck runs as the investment meeting itself: place the portfolio, price it with horizon-matched thresholds, and let the red flags veto. Card faces stay typographic on purpose — art lives on the box, the back and the wall. 34 cards · 6 sections · 93×67 mm · Free to print and share · not for resale</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="alt" id="download"><div class="wrap">
 <div class="kicker dark">Downloads</div>
 <h2 class="lead">Print it yourself. <em>That's the point.</em></h2>
