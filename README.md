@@ -1,5 +1,9 @@
 # The Strategy Deck
 
+<p align="center">
+  <img src="assets/art/banner.png" alt="The Strategy Deck" width="720">
+</p>
+
 Thirty-four cards for executives choosing where to invest in AI, distilled from
 the AI-Driven Business Innovation masterclass — the grown-up version of the
 course's 12 capability cards. Free product: no gate, no capture.
@@ -22,7 +26,7 @@ line.
 | `strategy-deck-34-print.html` | Print & cut. 5 A4 pages, 8 cards per sheet, cover card first. |
 | `strategy-deck-guide.html` | One-page diagnostic. |
 | `strategy-deck-desk-card.html` | Every card, every line — one A4 pin-up. |
-| `moves-deck-36-art.html` | Art edition for the boxed print run: portrait cards, tinted category vignettes. |
+| `strategy-deck-34-art.html` | Art edition for the boxed print run: portrait cards, tinted category vignettes. |
 | `fonts/` | Domine, Funnel Sans, Nanum Gothic Coding (SIL OFL). |
 
 Art: `assets/art/` holds the cartographer-navy identity (dark map table, aged contour maps, brass instruments), generated with limn — prompts and sidecars in `assets/art/README.md`. Art edition included.
